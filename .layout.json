@@ -1,0 +1,6 @@
+{
+    "web": {
+        "path": "src",
+        "template": "react"
+    }
+}
