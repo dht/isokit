@@ -1,62 +1,82 @@
-import React, { useRef } from 'react';
-import { Engine, Scene } from '@babylonjs/core';
+import { Engine, Scene, VideoRecorder } from '@babylonjs/core';
 import '@babylonjs/inspector';
-import { setScene, setEngine } from './isokit.globals';
 import { useCustomEvent } from '@gdi/hooks';
-import { useUnmount } from 'react-use';
+import { useRef, useState } from 'react';
+import { useMount, useUnmount } from 'react-use';
 import styled from 'styled-components';
+import SceneBuilder from './components/SceneBuilder/SceneBuilder.container';
+import { setEngine, setScene } from './isokit.globals';
 
 export const BabylonScene = (props: any) => {
-    const canvas = useRef(null);
-    const engine = useRef<any>();
-    const scene = useRef<any>();
+  const canvas = useRef(null);
+  const engine = useRef<any>();
+  const scene = useRef<any>();
+  const [width, setWidth] = useState(props.width);
+  const [height, setHeight] = useState(props.height);
 
-    useCustomEvent(
-        'load_babylonjs_scene',
-        (callback: any) => {
-            if (!canvas.current) {
-                return;
-            }
+  useMount(() => {
+    const el = canvas.current as any;
+    const { width, height } = el.parentNode.getBoundingClientRect();
+    setWidth(width);
+    setHeight(height);
+  });
 
-            if (engine.current) {
-                engine.current.dispose();
-            }
+  useCustomEvent(
+    'load_babylonjs_scene',
+    (callback: any) => {
+      if (!canvas.current) {
+        return;
+      }
 
-            engine.current = new Engine(canvas.current);
-            setEngine(engine.current);
+      if (engine.current) {
+        engine.current.dispose();
+      }
 
-            if (scene.current) {
-                scene.current.dispose();
-            }
+      engine.current = new Engine(canvas.current);
+      setEngine(engine.current);
 
-            scene.current = new Scene(engine.current, {});
+      // if (VideoRecorder.IsSupported(engine.current)) {
+      //   var recorder = new VideoRecorder(engine.current);
+      //   recorder.startRecording('hovercraft.webm', 60000);
+      // }
 
-            setScene(scene.current);
+      if (scene.current) {
+        scene.current.dispose();
+      }
 
-            if (scene.current.isReady()) {
-                callback(scene.current);
-            } else {
-                scene.current.onReadyObservable.addOnce(() => {
-                    callback(scene.current);
-                });
-            }
+      scene.current = new Scene(engine.current, {});
 
-            return () => {
-                scene.current.getEngine().dispose();
-            };
-        },
-        []
-    );
+      setScene(scene.current);
 
-    useUnmount(() => {
-        if (scene.current) {
-            scene.current.getEngine().dispose();
-        }
-    });
+      if (scene.current.isReady()) {
+        callback(scene.current);
+      } else {
+        scene.current.onReadyObservable.addOnce(() => {
+          callback(scene.current);
+        });
+      }
 
-    return <Canvas ref={canvas} />;
+      return () => {
+        scene.current.getEngine().dispose();
+      };
+    },
+    []
+  );
+
+  useUnmount(() => {
+    if (scene.current) {
+      scene.current.getEngine().dispose();
+    }
+  });
+
+  return (
+    <>
+      <Canvas ref={canvas} width={width} height={height} />
+      <SceneBuilder />
+    </>
+  );
 };
 
 export const Canvas = styled.canvas`
-    outline: none;
+  outline: none;
 `;
