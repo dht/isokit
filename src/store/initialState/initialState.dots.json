@@ -1,0 +1,30 @@
+{
+  "9a": {
+    "id": "9a",
+    "itemId": "arc-camera",
+    "timestamp": 0,
+    "params": {
+      "alpha": -17,
+      "beta": 64,
+      "radius": 12,
+      "b1": 0.5,
+      "b2": 0.5,
+      "b3": 0.5,
+      "b4": 0.5,
+      "x": 0,
+      "y": 0,
+      "z": 0,
+      "isAnimated": true
+    }
+  },
+  "9b": {
+    "id": "9b",
+    "itemId": "arc-camera",
+    "timestamp": 10000,
+    "params": {
+      "alpha": 72.21,
+      "beta": 74.48,
+      "radius": 12
+    }
+  }
+}

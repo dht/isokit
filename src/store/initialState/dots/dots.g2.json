@@ -1,0 +1,32 @@
+{
+  "g2": {
+    "id": "g2",
+    "itemId": "g2",
+    "timestamp": 18000,
+    "params": {
+      "x": 40,
+      "y": 0,
+      "z": -40,
+      "rx": 0,
+      "ry": 180,
+      "rz": 0,
+      "b1": 0.5,
+      "b2": 0.5,
+      "b3": 0.5,
+      "b4": 0.5,
+      "isAnimated": true,
+      "l": 1
+    },
+    "isSelected": false
+  },
+  "g2a": {
+    "id": "g2a",
+    "itemId": "g2",
+    "timestamp": 25000,
+    "params": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    }
+  }
+}

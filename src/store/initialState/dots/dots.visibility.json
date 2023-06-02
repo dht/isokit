@@ -1,0 +1,56 @@
+{
+  "v1": {
+    "id": "v1",
+    "itemId": "g1",
+    "timestamp": 0,
+    "show": true
+  },
+  "v2": {
+    "id": "v2",
+    "itemId": "g1",
+    "timestamp": 7900,
+    "show": false
+  },
+  "v3": {
+    "id": "v3",
+    "itemId": "g1",
+    "timestamp": 12000,
+    "show": true
+  },
+  "v4": {
+    "id": "v4",
+    "itemId": "g2",
+    "timestamp": 19000,
+    "show": true
+  },
+  "v6": {
+    "id": "v6",
+    "itemId": "g2",
+    "timestamp": 21800,
+    "show": false
+  },
+  "v7": {
+    "id": "v7",
+    "itemId": "g3",
+    "timestamp": 21200,
+    "show": true
+  },
+  "v8": {
+    "id": "v8",
+    "itemId": "g3",
+    "timestamp": 25800,
+    "show": false
+  },
+  "v9": {
+    "id": "v9",
+    "itemId": "g1",
+    "timestamp": 25500,
+    "show": false
+  },
+  "v10": {
+    "id": "v10",
+    "itemId": "g2",
+    "timestamp": 25500,
+    "show": false
+  }
+}

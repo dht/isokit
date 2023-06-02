@@ -1,0 +1,93 @@
+{
+  "e656": {
+    "id": "e656",
+    "timestamp": 0,
+    "itemId": "car",
+    "params": {
+      "x": 0,
+      "y": 0.2,
+      "z": 50,
+      "rx": 0,
+      "ry": 180,
+      "rz": 0
+    }
+  },
+  "df9a": {
+    "id": "df9a",
+    "timestamp": 7900,
+    "itemId": "car",
+    "params": {
+      "x": 0,
+      "y": 0.2,
+      "z": 50,
+      "b1": 0.5,
+      "b2": 0.5,
+      "b3": 0.5,
+      "b4": 0.5,
+      "isAnimated": true
+    }
+  },
+  "df9c": {
+    "id": "df9c",
+    "timestamp": 11900,
+    "itemId": "car",
+    "params": {
+      "x": 0,
+      "y": 0.2,
+      "z": 10,
+      "b1": 0.5,
+      "b2": 0.5,
+      "b3": 0.5,
+      "b4": 0.5,
+      "isAnimated": true
+    }
+  },
+  "df9b": {
+    "id": "df9b",
+    "timestamp": 14900,
+    "itemId": "car",
+    "params": {
+      "x": 0,
+      "y": 0.2,
+      "z": 0
+    }
+  },
+  "f114": {
+    "id": "f114",
+    "timestamp": 23300,
+    "itemId": "car",
+    "params": {
+      "x": 0,
+      "y": 0.2,
+      "z": 0,
+      "b1": 0.68,
+      "b2": 0.45,
+      "b3": 0.83,
+      "b4": 0.67,
+      "isAnimated": true
+    }
+  },
+  "f115": {
+    "id": "f115",
+    "timestamp": 28500,
+    "itemId": "car",
+    "params": {
+      "x": 0,
+      "y": 0.2,
+      "z": -70
+    }
+  },
+  "f116": {
+    "id": "f116",
+    "timestamp": 28600,
+    "itemId": "car",
+    "params": {
+      "x": 0,
+      "y": 0.2,
+      "z": 0,
+      "rx": 0,
+      "ry": 180,
+      "rz": 0
+    }
+  }
+}

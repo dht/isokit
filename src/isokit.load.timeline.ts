@@ -34,8 +34,6 @@ import {
 import { graphData1, graphData2 } from './data/data.graph';
 
 export const loadTimeline = async (timelineConfig: Json) => {
-    console.log('timelineConfig ->', timelineConfig);
-
     initCameras({
         c1: {
             id: 'c1',

@@ -1,0 +1,38 @@
+{
+  "c1": {
+    "id": "c1",
+    "itemId": "universal-camera",
+    "timestamp": 0,
+    "params": {
+      "x": -2,
+      "y": 1,
+      "z": -10
+    }
+  },
+  "c2": {
+    "id": "c2",
+    "itemId": "universal-camera",
+    "timestamp": 5268,
+    "params": {
+      "x": -2,
+      "y": 1,
+      "z": -10,
+      "rx": 3,
+      "ry": -173,
+      "rz": 0
+    }
+  },
+  "c3": {
+    "id": "c3",
+    "itemId": "universal-camera",
+    "timestamp": 7900,
+    "params": {
+      "x": 63,
+      "y": 8,
+      "z": -4.6,
+      "rx": 3,
+      "ry": -84,
+      "rz": 0
+    }
+  }
+}

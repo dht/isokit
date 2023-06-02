@@ -1,0 +1,29 @@
+{
+  "g1": {
+    "id": "g1",
+    "itemId": "g1",
+    "timestamp": 10,
+    "params": {
+      "x": -40,
+      "y": 0,
+      "z": -40,
+      "b1": 0.5,
+      "b2": 0.5,
+      "b3": 0.5,
+      "b4": 0.5,
+      "isAnimated": true,
+      "l": 1
+    },
+    "isSelected": false
+  },
+  "g1a": {
+    "id": "g1a",
+    "itemId": "g1",
+    "timestamp": 7800,
+    "params": {
+      "x": -40,
+      "y": 0,
+      "z": 0
+    }
+  }
+}

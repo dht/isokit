@@ -1,0 +1,10 @@
+{
+  "s1": {
+    "id": "s1",
+    "timestamp": 19800,
+    "url": "http://localhost:3001/sounds/modelz/flyby.mp3",
+    "params": {
+      "volume": 0.3
+    }
+  }
+}

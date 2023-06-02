@@ -1,0 +1,95 @@
+{
+  "e107": {
+    "id": "e107",
+    "timestamp": 12000,
+    "itemId": "arc-camera",
+    "params": {
+      "x": 0,
+      "y": 0,
+      "z": 0,
+      "alpha": -179.34,
+      "beta": 86.43,
+      "radius": 24,
+      "b1": 0.5,
+      "b2": 0.5,
+      "b3": 0.5,
+      "b4": 0.5,
+      "isAnimated": true
+    }
+  },
+  "e108a": {
+    "id": "e108a",
+    "timestamp": 15000,
+    "itemId": "arc-camera",
+    "params": {
+      "alpha": -179.34,
+      "beta": 86.43,
+      "radius": 19,
+      "b1": 0.5,
+      "b2": 0.5,
+      "b3": 0.5,
+      "b4": 0.5,
+      "isAnimated": true
+    }
+  },
+  "e108b": {
+    "id": "e108b",
+    "timestamp": 21000,
+    "itemId": "arc-camera",
+    "params": {
+      "alpha": -179.34,
+      "beta": 86.43,
+      "radius": 12,
+      "b1": 0.5,
+      "b2": 0.5,
+      "b3": 0.5,
+      "b4": 0.5,
+      "isAnimated": true
+    }
+  },
+  "e19": {
+    "id": "e19",
+    "timestamp": 21700,
+    "itemId": "arc-camera",
+    "params": {
+      "alpha": -2.34,
+      "beta": 86.43,
+      "radius": 12
+    }
+  },
+  "e109c": {
+    "id": "e109c",
+    "timestamp": 28400,
+    "itemId": "arc-camera",
+    "params": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    }
+  },
+  "e109b": {
+    "id": "e109b",
+    "timestamp": 28500,
+    "itemId": "arc-camera",
+    "params": {
+      "alpha": -2.34,
+      "beta": 86.43,
+      "radius": 22,
+      "b1": 0.5,
+      "b2": 0.5,
+      "b3": 0.5,
+      "b4": 0.5,
+      "isAnimated": true
+    }
+  },
+  "e110": {
+    "id": "e110",
+    "timestamp": 32000,
+    "itemId": "arc-camera",
+    "params": {
+      "alpha": -2.34,
+      "beta": 46.43,
+      "radius": 14
+    }
+  }
+}
